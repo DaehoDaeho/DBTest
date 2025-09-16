@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c7e3203c3c39d1a4b9a883918997239b, type: 3}
+  m_Name: MonsterDatabase
+  m_EditorClassIdentifier: 
+  monsters:
+  - id: enemy_runner
+    displayName: Runner
+    maxHP: 35
+    moveSpeed: 3
+    prefab: {fileID: 2145204157132410232, guid: ae69ab12c7da4a946a08449a3ae1c184, type: 3}
+  - id: enemy_tanker
+    displayName: Tanker
+    maxHP: 120
+    moveSpeed: 1.6
+    prefab: {fileID: 2230199067776117512, guid: 01408b54375561b43b6b5486986c289c, type: 3}
+  - id: enemy_ranged
+    displayName: Ranged
+    maxHP: 50
+    moveSpeed: 2.2
+    prefab: {fileID: 5677823641388385831, guid: a1e3be3631514fd41916848ba3533f52, type: 3}
